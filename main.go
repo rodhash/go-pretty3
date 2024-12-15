@@ -7,10 +7,10 @@ import (
 	"strconv"
 )
 
-type mapObj map[float64][]float64
+// type mapObj map[float64][]float64
 
 // Takes a MAP object and pretty Print it
-func Pretty(data mapObj) {
+func Pretty(data map[float64][]float64) {
 	convertedData := make(map[string]any)
 
 	for k,v := range data {
