@@ -27,3 +27,7 @@ func Pretty(data map[float64][]float64) {
 	fmt.Println(string(jsonData))
 }
 
+func Foobar() {
+	fmt.Println("foobar")
+}
+
